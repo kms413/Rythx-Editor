@@ -1,0 +1,45 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--editor-bg-color);
+  overflow: hidden;
+}
+
+p {
+  color: var(--pargraph-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+button {
+  --is-disable: 0;
+  color: var(--button-text-color);
+  cursor: pointer;
+  background-color: var(--editor-bg-color);
+  border: none;
+  padding: 3pt;
+  box-shadow: 0 0 1px var(--activity-bar-divider-color);
+}
+button:focus-visible {
+  outline: none;
+  border: solid 1px #0078d4;
+  color: #0078d4;
+}
+button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+button:active{
+  background-color: var(--button-active-bg-color);
+}
