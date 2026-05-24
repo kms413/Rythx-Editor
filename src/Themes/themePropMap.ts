@@ -8,5 +8,6 @@ export default {
   ButtonTextColor: "--button-text-color",
   ButtonHoverBgColor: "--button-hover-bg-color",
   ActivityBarIconsFilter: "--activity-bar-icons-filter",
-  ButtonActiveBgColor: "--button-active-bg-color"
+  ButtonActiveBgColor: "--button-active-bg-color",
+  HoverBgColor:"--hover-bg-color"
 } as Record<keyof ThemeVars, string>

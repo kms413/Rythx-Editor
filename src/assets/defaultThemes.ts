@@ -11,6 +11,7 @@ const Black = defineTheme({
   ButtonTextColor: "rgb(160, 160, 160)",
   ButtonHoverBgColor: "rgb(38, 38, 38)",
   ButtonActiveBgColor: "rgb(39, 39, 39)",
+  HoverBgColor: "rgb(66, 66, 66)"
 })
 
 const White = defineTheme({
@@ -23,7 +24,8 @@ const White = defineTheme({
   PargraphColor: "rgb(56, 56, 56)",
   ButtonTextColor: "rgb(107, 107, 107)",
   ButtonHoverBgColor: "rgb(240, 240, 240)",
-  ButtonActiveBgColor: "rgb(220, 220, 220)"
+  ButtonActiveBgColor: "rgb(220, 220, 220)",
+  HoverBgColor: "rgb(242, 242, 242)"
 })
 
 

@@ -43,3 +43,18 @@ button:hover {
 button:active{
   background-color: var(--button-active-bg-color);
 }
+span{
+  color: var(--pargraph-color);
+}
+input{
+  padding: 5pt;
+  color: var(--pargraph-color);
+  background-color: var(--editor-bg-color);
+  border: .5px solid var(--activity-bar-divider-color);
+}
+
+input:focus-visible{
+  outline: none;
+  border: solid 1px #0078d4;
+  color: #0078d4;
+}

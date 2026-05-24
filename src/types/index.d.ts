@@ -9,17 +9,17 @@ declare global {
     StageHeaderColor: string
     StageShadow: string
     HeadingColor: string
-    PargraphColor: string,
-    ButtonTextColor: string,
-    ButtonHoverBgColor: string,
-    ButtonActiveBgColor: string,
-
+    PargraphColor: string
+    ButtonTextColor: string
+    ButtonHoverBgColor: string
+    ButtonActiveBgColor: string
+    HoverBgColor: string
     [key: string]: string
   }
 
-  interface RythxContainer {
+  interface RythxGroup {
     name: string
-    container: Container,
+    container: Container
   }
 
   interface ActivityBarItem {
@@ -37,7 +37,7 @@ declare global {
         stage: Application['stage']
       }
       runtime: {
-        containers: Reactive<RythxContainer[]>
+        groups: Reactive<RythxGroup[]>
       }
     }
     gui: {

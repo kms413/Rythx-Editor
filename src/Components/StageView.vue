@@ -112,7 +112,7 @@ onMounted(()=>{
   box-shadow: 0 0 2px var(--stage-shadow);
   position: absolute;
   user-select: none;
-  z-index: 999999
+  z-index: 99
 }
 #stageContainer header{
   width: 100%;
